@@ -1,0 +1,86 @@
+.background-blue {
+    background-color: #004d7f;
+}
+
+.text-blue {
+    color: #004d7f;
+}
+
+.nav-link.active {
+    background-color: #004d7f !important;
+}
+
+.active > .page-link {
+    background-color: #004d7f !important;
+}
+
+.btn.btn-primary.background-blue:hover {
+    background-color: #004d7f !important;
+}
+
+.btn.btn-primary.background-blue:focus-visible {
+    background-color: #004d7f !important;
+}
+
+.fs-16 {
+    font-size: 16px !important;
+}
+
+.form-check-input:checked {
+    background-color: #004d7f;
+    border-color: #004d7f;
+}
+
+.points-1 {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.slider {
+    height: 757px;
+    background: url('../../public/image/wibigkar01.jpg') 0 147px;
+}
+
+.fs-14 {
+    font-size: 14px !important;
+}
+
+.fs-12 {
+    font-size: 12px !important;
+}
+
+.fs-10 {
+    font-size: 10px !important;
+}
+
+.bg-body {
+    background-color: #e9e9e9;
+}
+
+.bg-body-dark {
+    background-color: #eeeeee;
+}
+
+.footer {
+    height: 230px;
+    background-color: #004d7f !important;
+    background-image: url('../../public/image/footer.jpg');
+}
+
+.sale {
+    height: 307px;
+    background: url('../../public/image/bg.jpg');
+}
+
+@media (max-width: 10000px) {
+    .px-container {
+        padding-left: calc(20px + 260 * ((100vw - 1320px) / (1920 - 1320))) !important;
+        padding-right: calc(20px + 260 * ((100vw - 1320px) / (1920 - 1320))) !important;
+    }
+    .px-sm-container {
+        padding-left: calc(20px + 114 * ((100vw - 1320px) / (1920 - 1320))) !important;
+        padding-right: calc(20px + 114 * ((100vw - 1320px) / (1920 - 1320))) !important;
+    }
+}
